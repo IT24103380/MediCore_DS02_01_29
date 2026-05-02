@@ -1,0 +1,25 @@
+{
+  "name": "medicore-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Workspace scripts for the MediCore pharmacy system.",
+  "scripts": {
+    "start": "npm run start:mobile",
+    "start:backend": "npm --prefix backend start",
+    "start:mobile": "npm --prefix mobile start",
+    "backend": "npm run start:backend",
+    "mobile": "npm run start:mobile",
+    "smoke": "node scripts/qa/system-smoke.js"
+  },
+  "dependencies": {
+    "expo": "^55.0.19",
+    "expo-router": "~55.0.13",
+    "expo-updates": "~55.0.21",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.10",
+    "typescript": "~5.9.2"
+  }
+}

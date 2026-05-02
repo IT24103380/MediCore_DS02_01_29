@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "MediCore",
+    "slug": "medicore",
+    "scheme": "medicore",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.thaweesha.medicore"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1d84a7e5-2ec2-4bcf-9a6a-4874be990b4f"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1d84a7e5-2ec2-4bcf-9a6a-4874be990b4f"
+    }
+  }
+}
